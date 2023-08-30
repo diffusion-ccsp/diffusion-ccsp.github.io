@@ -38,9 +38,9 @@ function updateResultVideo() {
   var combination = document.getElementById("single-menu-replay").value;
 
   var table1 = document.getElementById("result-table");
-  table1.setAttribute("w3-include-html", "result_"+combination+".html");
+  table1.setAttribute("w3-include-html", "result-"+combination+".html");
 
-  includeHTML()
+  includeHTML();
 
   var video = document.getElementById("result-video");
   video.playbackRate = 0.5;
