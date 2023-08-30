@@ -2,6 +2,18 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    /* padding-top: 1em; */
+    padding-bottom: 1em;
+}
+
 .title.is-1 {
   font-size: 2.5rem;
 }
@@ -236,7 +248,7 @@ body {
   color: #444;
 }
 
-th {
+/* th {
   text-align: center !important ;
   padding:10px 4px;
   font-size:0.8em;
@@ -250,7 +262,7 @@ td {
   height:30px;
   white-space: nowrap;
   background:#eee;
-}
+} */
 
 .hiddentxt {
   font-weight: bold;
@@ -270,15 +282,86 @@ td {
   z-index: 299
 }
 
-#table-note {
-  text-align: left !important ;
-  width: 70% !important ;
-  margin-left: auto !important ;
-  margin-right: auto !important ;
-  font-size: 0.8em !important ;
-}
-
 ul {
   list-style: disc;
   padding-left: 2em;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: 115px;
+  padding: -0.5em !important;
+}
+.comment {
+  font-size: 9px;
+  color: #000000;
+  margin-top: 3px;
+}
+table {
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-top: 1px solid white;
+  background-color: #95a5a611;
+  vertical-align: center !important;
+  text-align: center;
+}
+
+td,
+th {
+  padding: 0em;
+  border: 1px solid white;
+  max-width: 600px;
+  font-size: 14px;
+}
+
+th {
+  padding: 0.5em;
+}
+
+.constraint {
+  font-family: 'Courier New';
+  font-weight: bold;
+  background-color: #95a5a633;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.red {
+  color: white;
+  font-family: 'Courier New';
+  font-weight: bold;
+  background-color: #e74c3c;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.orange {
+  color: white;
+  font-family: 'Courier New';
+  font-weight: bold;
+  background-color: #e67e22;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.yellow {
+  color: white;
+  font-family: 'Courier New';
+  font-weight: bold;
+  background-color: #f1c40f;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.mybox {
+  color: white;
+  font-family: 'Courier New';
+  font-weight: bold;
+  background-color: #95a5a6;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
