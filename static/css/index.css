@@ -293,11 +293,13 @@ ul {
   height: 115px;
   padding: -0.5em !important;
 }
-.comment {
-  font-size: 9px;
-  color: #000000;
-  margin-top: 3px;
+
+.video {
+  width: auto;
+  height: 115px;
+  padding: -0.5em !important;
 }
+
 table {
   margin-top: 1em;
   margin-left: auto;
