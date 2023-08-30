@@ -1,0 +1,48 @@
+
+<div>
+  Problem: Placing <span class="red">red</span> inside
+  <span class="mybox">container</span> conditioned on the poses of
+   <span class="orange">orange</span> and 
+   <span class="yellow">yellow</span>, <br>while satisfying constraints:
+  <span class="constraint">
+    (bottom-in, 
+    <span class="red">red</span>, 
+    <span class="mybox">container</span>),
+    (h-aligned, 
+    <span class="red">red</span>, 
+    <span class="orange">orange</span>)
+  </span>
+
+
+  <table>
+    <tr>
+        <th>Field of <span class="constraint"> bottom-in</span></th>
+        <th>Field of <span class="constraint"> h-aligned</span></th>
+        <th>Composed Field</th>
+        <th>Sampled Data</th>
+        <th>Diffusion Process</th>
+    </tr>
+
+    <tr>
+      <td>
+        <img class="image" src="media/results/qualitative_bottom-in|h-aligned_bottom-in_field_0_large.png"/>
+      </td>
+      <td>
+        <img class="image" src="media/results/qualitative_bottom-in|h-aligned_h-aligned_field_0_large.png"/>
+      </td>
+      <td>
+        <img class="image" src="media/results/qualitative_bottom-in|h-aligned_field_0_large.png"/>
+      </td>
+      <td>
+        <img class="image" src="media/results/bottom-in|h-aligned_data_cropped.png"/>
+      </td>
+      <td>
+        <video class="video" id="result-video" class="full-image" muted autoplay width="100%" onclick="this.play()" controls>
+          <source src="media/results/bottom-in-h-aligned_data.mp4" type="video/mp4">
+        </video><br>
+      </td>
+    </tr>
+
+  </table>
+</div>
+

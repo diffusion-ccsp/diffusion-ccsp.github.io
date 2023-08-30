@@ -1,0 +1,48 @@
+
+<div>
+  Problem: Placing <span class="yellow">yellow</span> inside
+  <span class="mybox">container</span> conditioned on the poses of
+   <span class="red">red</span> and 
+   <span class="orange">orange</span>, <br>while satisfying constraints:
+  <span class="constraint">
+    (away-from, 
+    <span class="yellow">yellow</span>, 
+    <span class="red">red</span>),
+    (right-in, 
+    <span class="yellow">yellow</span>, 
+    <span class="mybox">container</span>)
+  </span>
+
+
+  <table>
+    <tr>
+        <th>Field of <span class="constraint"> away-from</span></th>
+        <th>Field of <span class="constraint"> right-in</span></th>
+        <th>Composed Field</th>
+        <th>Sampled Data</th>
+        <th>Diffusion Process</th>
+    </tr>
+
+    <tr>
+      <td>
+        <img class="image" src="media/results/qualitative_away-from|right-in_away-from_field_0_large.png"/>
+      </td>
+      <td>
+        <img class="image" src="media/results/qualitative_away-from|right-in_right-in_field_0_large.png"/>
+      </td>
+      <td>
+        <img class="image" src="media/results/qualitative_away-from|right-in_field_0_large.png"/>
+      </td>
+      <td>
+        <img class="image" src="media/results/away-from|right-in_data_cropped.png"/>
+      </td>
+      <td>
+        <video class="video" id="result-video" class="full-image" muted autoplay width="100%" onclick="this.play()" controls>
+          <source src="media/results/away-from-right-in_data.mp4" type="video/mp4">
+        </video><br>
+      </td>
+    </tr>
+
+  </table>
+</div>
+
