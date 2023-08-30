@@ -1,43 +1,45 @@
-Problem: Placing <span class="orange">orange</span> object inside
-<span class="mybox">container</span> conditioned on the poses of
-<span class="red">red</span> and
-<span class="yellow">yellow</span>, <br>while satisfying constraints:
-<span class="constraint">
-  (bottom-in,
-  <span class="orange">orange</span>,
-  <span class="mybox">container</span>),
-  (v-aligned,
-  <span class="orange">orange</span>,
-  <span class="yellow">yellow</span>)
-</span>
+<div>
+  Problem: Placing <span class="orange">orange</span> object inside
+  <span class="mybox">container</span> conditioned on the poses of
+  <span class="red">red</span> and
+  <span class="yellow">yellow</span>, <br>while satisfying constraints:
+  <span class="constraint">
+    (bottom-in,
+    <span class="orange">orange</span>,
+    <span class="mybox">container</span>),
+    (v-aligned,
+    <span class="orange">orange</span>,
+    <span class="yellow">yellow</span>)
+  </span>
 
-<table>
-  <tr>
-      <th>Field of <span class="constraint"> bottom-in</span></th>
-      <th>Field of <span class="constraint"> v-aligned</span></th>
-      <th>Composed Field</th>
-      <th>Sampled Data</th>
-      <th>Diffusion Process</th>
-  </tr>
+  <table>
+    <tr>
+        <th>Field of <span class="constraint"> bottom-in</span></th>
+        <th>Field of <span class="constraint"> v-aligned</span></th>
+        <th>Composed Field</th>
+        <th>Sampled Data</th>
+        <th>Diffusion Process</th>
+    </tr>
 
-  <tr>
-    <td>
-      <img class="image" src="media/results/qualitative_bottom-in|v-aligned_bottom-in_field_0_large.png"/>
-    </td>
-    <td>
-      <img class="image" src="media/results/qualitative_bottom-in|v-aligned_v-aligned_field_0_large.png"/>
-    </td>
-    <td>
-      <img class="image" src="media/results/qualitative_bottom-in|v-aligned_field_0_large.png"/>
-    </td>
-    <td>
-      <img class="image" src="media/results/bottom-in|v-aligned_data_cropped.png"/>
-    </td>
-    <td>
-      <video class="video" id="result-video" class="full-image" muted autoplay width="100%" onclick="this.play()" controls>
-        <source src="media/results/bottom-in-v-aligned_data.mp4" type="video/mp4">
-      </video><br>
-    </td>
-  </tr>
+    <tr>
+      <td>
+        <img class="image" src="media/results/qualitative_bottom-in|v-aligned_bottom-in_field_0_large.png"/>
+      </td>
+      <td>
+        <img class="image" src="media/results/qualitative_bottom-in|v-aligned_v-aligned_field_0_large.png"/>
+      </td>
+      <td>
+        <img class="image" src="media/results/qualitative_bottom-in|v-aligned_field_0_large.png"/>
+      </td>
+      <td>
+        <img class="image" src="media/results/bottom-in|v-aligned_data_cropped.png"/>
+      </td>
+      <td>
+        <video class="video" id="result-video" class="full-image" muted autoplay width="100%" onclick="this.play()" controls>
+          <source src="media/results/bottom-in-v-aligned_data.mp4" type="video/mp4">
+        </video><br>
+      </td>
+    </tr>
 
-</table>
+  </table>
+</div>
