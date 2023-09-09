@@ -153,6 +153,16 @@ h3 {
   margin: 0;
 } */
 
+.video-teaser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #c8cccf;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
+
 .video-table {
   background-color: white;
   overflow: hidden;
@@ -169,6 +179,17 @@ h3 {
   margin: 0;
   border: 1px solid #bbb;
   border-radius: 10px;
+}
+
+/* Media query for screens smaller than 768 pixels */
+@media (max-width: 768px) {
+    .video-table, .video-table thead, .video-table tbody, .video-table th, .video-table td, .video-table tr {
+        display: block;
+    }
+    .video-table td {
+        /* You might want to add some spacing between the cells */
+        margin-bottom: 0.625rem;
+    }
 }
 
 .full-image {
@@ -384,4 +405,26 @@ th {
   background-color: #95a5a6;
   padding-left: 0.5em;
   padding-right: 0.5em;
+}
+
+
+@media (max-width: 768px) {
+    video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 100% !important ;
+    }
+}
+
+@media (max-width: 768px) {
+    .justify {
+        width: 100%;
+        padding-left: 0rem !important ;
+        padding-right: 0rem !important ;
+        padding-bottom: 2rem !important ;
+    }
 }
